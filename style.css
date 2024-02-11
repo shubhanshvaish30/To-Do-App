@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: rgb(43, 42, 42);
+}
+#container{
+    width: 500px;
+    height: 600px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color:white;
+    margin: 50px auto;
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgb(169, 164, 164);
+    padding: 25px;
+    padding-bottom: 0px;
+    justify-content: center;
+    
+}
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+}
+#inp{
+    width: 300px;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    padding-right: 0px;
+    border: none;
+    outline: none;
+}
+.add{
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    border-radius: 50%;
+    padding-bottom: 3px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: grey;
+    background-color: white;
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+.add:active{
+    transform: scale(.85);
+}
+.lower{
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    padding: 15px;
+    overflow: auto;
+    word-wrap: break-word;
+}
+.lower::-webkit-scrollbar {
+    display:none;
+}
+.list{
+    width: 100%;
+}
+.li{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    padding-left: 25px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 2px rgb(104, 104, 104);
+    border-radius: 30px;
+    background-color: white;
+
+}
+.cross{
+   cursor: pointer; 
+}
+.completed{
+    text-decoration: line-through;
+    color: rgb(42, 42, 42);
+    background-color: rgb(125, 191, 125);
+
+}
+span{
+    float: right;
+}
